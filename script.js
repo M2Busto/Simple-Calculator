@@ -1,4 +1,4 @@
-let ResultString = "0" ; let ResultNumber = 0
+let ResultString = "" ; let ResultNumber = 0
 const Elements = document.querySelectorAll(".element")
 const Result_Box = document.querySelector("#result-box")
 
@@ -14,7 +14,7 @@ Elements.forEach(function(button) {
             ResultString = "0" ; ResultNumber = 0
         } 
         else {
-            if (ResultString === "0") {
+            if (ResultString === "") {
                 ResultString = ""
             }
             ResultString += button.innerHTML
