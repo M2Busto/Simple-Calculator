@@ -10,8 +10,8 @@ Elements.forEach(function(button) {
             Result_Box.innerHTML = ResultNumber
             console.log(ResultNumber)
         } else if (button.innerHTML === "C") {
-            Result_Box.innerHTML = "0"
-            ResultString = "0" ; ResultNumber = 0
+            Result_Box.innerHTML = " "
+            ResultString = " " ; ResultNumber = 0
         } 
         else {
             if (ResultString === "") {
